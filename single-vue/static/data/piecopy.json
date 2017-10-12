@@ -1,0 +1,106 @@
+{
+  "chart1":{
+    "type":"bar",
+    "data":{
+      "labels":["Red", "Blue", "Yellow"],
+      "datasets": [
+        {
+          "label": "three",
+          "backgroundColor": ["#f87979","#553d56","#8732fe"],
+          "data": [40, 20, 12]
+        }
+      ]
+    },
+    "options":""
+  },
+  "chart2":{
+    "type":"bar",
+    "data":{
+      "labels" : ["January","February","March","April","May","June","July"],
+      "datasets" : [
+        {
+          "label":"test1",
+          "data": [12, 19, 3, 5, 2, 3, 8],
+          "backgroundColor": "rgba(255, 99, 132, 0.2)",
+          "borderColor": "rgba(255,99,132,1)",
+          "borderWidth": 1
+        },
+        {
+          "label":"test2",
+          "data": [5, 2, 3, 8, 12, 19, 3],
+          "backgroundColor": "rgba(255, 135, 132, 0.2)",
+          "borderColor": "rgba(255,99,26,1)",
+          "borderWidth": 1
+        }
+      ]
+    },
+    "options":""
+  },
+  "chart3":{
+    "type":"line",
+    "data":{
+      "labels" : ["January","February","March","April","May","June","July"],
+      "datasets" : [
+        {
+          "label":"test1",
+          "data": [12, 19, 3, 5, 2, 3, 8],
+          "backgroundColor": "rgba(255, 99, 132, 0.2)",
+          "borderColor": "rgba(255,99,132,1)",
+          "borderWidth": 1
+        },
+        {
+          "label":"test2",
+          "data": [5, 2, 3, 8, 12, 19, 3],
+          "backgroundColor": "rgba(255, 135, 132, 0.2)",
+          "borderColor": "rgba(255,99,26,1)",
+          "borderWidth": 1
+        }
+      ]
+    },
+    "options":""
+  },
+  "chart4":{
+    "type":"bar",
+    "data":{
+      "labels" : ["January","February","March","April","May","June","July"],
+      "datasets" : [
+        {
+          "label":"test3",
+          "data": [12, 19, 3, 5, 2, 3, 8],
+          "backgroundColor": "rgba(45, 99, 132, 0.2)",
+          "borderColor": "rgba(45,99,132,1)",
+          "borderWidth": 1
+        },
+        {
+          "label":"test4",
+          "data": [5, 2, 3, 8, 12, 19, 3],
+          "backgroundColor": "rgba(134, 135, 132, 0.2)",
+          "borderColor": "rgba(134,99,26,1)",
+          "borderWidth": 1
+        }
+      ]
+    },
+    "options":""
+  },
+  "chart5":{
+    "type":"pie",
+    "data":{
+      "labels":["one","two","three"],
+      "datasets":[
+        {
+          "data": [300, 50, 100],
+          "backgroundColor": [
+            "#FF6384",
+            "#36A2EB",
+            "#FFCE56"
+          ],
+          "hoverBackgroundColor": [
+            "#FF6384",
+            "#36A2EB",
+            "#FFCE56"
+          ]
+        }
+      ]
+    },
+    "options":""}
+}
